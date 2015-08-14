@@ -1,0 +1,11 @@
+{application, hex_event,
+ [
+  {description, "hex event plugin"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { hex_event_app, []}}
+ ]}.
